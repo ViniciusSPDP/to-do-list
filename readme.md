@@ -42,9 +42,11 @@ Este projeto é uma aplicação completa de lista de tarefas (**TO-DO-LIST**) co
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
 2. **Instale as dependências do backend e frontend**
 
+```bash
 # Acesse o backend
 cd backend
 npm install
@@ -52,8 +54,9 @@ npm install
 # Acesse o frontend
 cd ../frontend
 npm install
-
+```
 3. **Configure o Banco de Dados**
+```bash
  - Crie um banco MySQL.
  - Rode o arquivo setup.sql para criar as tabelas.
  - Configure o .env do backend:
@@ -64,14 +67,17 @@ DB_PASSWORD=sua_senha_mysql
 DB_NAME=projeto_tarefas
 JWT_SECRET=sua_chave_secreta
 PORT=5000
-
+```
 4. **Inicie o Backend**
+
+```bash
 # Dentro da pasta backend
 npm run dev
-
+```
+```bash
 5. **Inicie o Frontend**
 # Dentro da pasta frontend
 npm run dev
-
+```
 Desenvolvido por Vinicius Saraiva🚀
 Projeto criado para fins de aprendizado e portfólio.
