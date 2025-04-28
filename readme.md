@@ -74,8 +74,9 @@ PORT=5000
 # Dentro da pasta backend
 npm run dev
 ```
-```bash
+
 5. **Inicie o Frontend**
+```bash
 # Dentro da pasta frontend
 npm run dev
 ```
